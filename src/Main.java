@@ -5,6 +5,7 @@ class Student{
      void displayStudent(String name,int rollNUmber,String grade){
           System.out.println(name+rollNumber+grade);
      }
+     }
 // TODO: Create a class called Student with name, rollNumber, and grade
 
     // TODO: Create a method to display student details
