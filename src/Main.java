@@ -3,9 +3,6 @@ class Student{
      int rollNumber;
      String grade;
      void displayStudent(){
-          name="thankappan";
-          rollNumber=56;
-          grade="D";
           System.out.println("Name :"+name);
           System.out.println("Rollno :"+rollNumber);
           System.out.println("Grade :"+grade);
