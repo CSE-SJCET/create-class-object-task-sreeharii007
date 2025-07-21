@@ -2,8 +2,13 @@ class Student{
      String name;
      int rollNumber;
      String grade;
-     void displayStudent(String name,int rollNUmber,String grade){
-          System.out.println(name+rollNumber+grade);
+     void displayStudent(){
+          name="thankappan";
+          rollNumber=56;
+          grade="D";
+          System.out.println("Name :"+name);
+          System.out.println("Rollno :"+rollNumber);
+          System.out.println("Grade :"+grade);
      }
      }
 // TODO: Create a class called Student with name, rollNumber, and grade
@@ -12,7 +17,7 @@ class Student{
 public class Main {
       public static void main(String[] args) {
            Student student=new Student();
-           student.displayStudent("adasd",56,"sf");
+           student.displayStudent();
         // TODO: Create a Student object and call the method to display details
     }
 }
