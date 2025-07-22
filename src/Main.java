@@ -14,9 +14,7 @@ class Student{
 public class Main {
       public static void main(String[] args) {
            Student student=new Student();
-           student.name="ABCD";
-           student.rollNumber=43;
-           student.grade="A";
+           student.displayDetails();
         // TODO: Create a Student object and call the method to display details
     }
 }
