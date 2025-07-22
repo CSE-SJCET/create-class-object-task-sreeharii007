@@ -2,7 +2,7 @@ class Student{
      String name;
      int rollNumber;
      String grade;
-     void displayStudent(){
+     void displayDetails(){
           System.out.println("Name :"+name);
           System.out.println("Rollno :"+rollNumber);
           System.out.println("Grade :"+grade);
